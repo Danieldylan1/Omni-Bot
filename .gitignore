@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# protect user info
+src/data/config/config.json
