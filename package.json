@@ -1,0 +1,26 @@
+{
+  "name": "omni-bot",
+  "version": "0.0.1",
+  "description": "Discord bot that does just about everything",
+  "main": "bot.js",
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "discord.js": "^11.1.0",
+    "moment": "^2.18.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danieldylan1/Omni-Bot.git"
+  },
+  "author": "Jason Liu (Danieldylan1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danieldylan1/Omni-Bot/issues"
+  },
+  "homepage": "https://github.com/Danieldylan1/Omni-Bot#readme"
+}
