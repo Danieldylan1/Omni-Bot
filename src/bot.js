@@ -26,4 +26,3 @@ try {
 
 //Variables
 let pf = cfg.pf;
-let 
