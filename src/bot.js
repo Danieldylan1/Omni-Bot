@@ -3,26 +3,18 @@ const Discord = require('discord.js');
 const fs = require('file-system');
 const path = require('path');
 const moment = require('moment');
-const winston = require('winston');
 const firebase = require('firebase');
+const colors = require('colors');
 
-//Setup winston
-var colors = {
-  levels: {
-    info: 0,
-    debug: 1,
-    warn: 2,
-    critical: 3
-  },
-  colors: {
-    info: 'blue',
-    debug: 'green',
-    warn: 'yellow',
-    critical: 'red'
-  }
-};
-var logger = new (winston.Logger)({ levels: colors.levels });
-winston.addColors(colors.colors)
+//Console colors
+colors.setTheme({
+  info: 'cyan',
+  data: 'grey',
+  warn: 'yellow',
+  debug: 'blue',
+  error: 'orange',
+  fatal: 'red'
+});
 
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
@@ -57,8 +49,6 @@ bot.login(cfg.token);
 
 //Bot Events
 //Bot Variables
-bot.on('ready', => {
+bot.on('ready', () => {
 
 });
-let msgArray = message.content.split(" ");
-let command =
