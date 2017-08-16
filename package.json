@@ -10,8 +10,7 @@
     "firebase": "^4.2.0",
     "moment": "^2.18.1",
     "opusscript": "0.0.3",
-    "path": "^0.12.7",
-    "winston": "^2.3.1"
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
