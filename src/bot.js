@@ -3,8 +3,18 @@ const Discord = require('discord.js');
 const fs = require('file-system');
 const path = require('path');
 const moment = require('moment');
-const log = require('winston');
 const firebase = require('firebase');
+const colors = require('colors');
+
+//Console colors
+colors.setTheme({
+  info: 'cyan',
+  data: 'grey',
+  warn: 'yellow',
+  debug: 'blue',
+  error: 'orange',
+  fatal: 'red'
+});
 
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
