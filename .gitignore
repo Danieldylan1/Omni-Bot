@@ -59,3 +59,6 @@ typings/
 
 # protect user info
 src/data/config/config.json
+
+# annoying files
+.DS_Store

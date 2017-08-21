@@ -5,6 +5,7 @@ const path = require('path');
 const moment = require('moment');
 const firebase = require('firebase');
 const colors = require('colors');
+const date = require('dateformat');
 
 //Console colors
 colors.setTheme({
@@ -36,3 +37,8 @@ try {
 
 //Variables
 let pf = cfg.pf;
+
+//Functions
+function logger (message, level) {
+
+}
